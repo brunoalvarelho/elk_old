@@ -1,9 +1,9 @@
 {
-    "name": "birdoffice/elastica-bundle",
+    "name": "brunoalvarelho/elastica-bundle",
     "type": "symfony-bundle",
     "description": "Elasticsearch PHP integration for your Symfony project using Elastica",
     "keywords": ["doctrine2", "elastica", "elasticsearch", "mongodb", "search"],
-    "homepage": "https://github.com/BirdOffice/FOSElasticaBundle",
+    "homepage": "https://github.com/brunoalvarelho/elk_old",
     "license": "MIT",
     "authors": [
         { "name": "FriendsOfSymfony Community", "homepage": "https://github.com/FriendsOfSymfony/FOSElasticaBundle/contributors" },
