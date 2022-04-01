@@ -86,7 +86,7 @@ final class ORMPagerProvider implements PagerProviderInterface
                     ->setParameter('id', $options['id']);
             }
 
-            if(!empty($options['id_from']) && !empty($options['id_to'])){
+            if(!empty($options['id_start']) && !empty($options['id_start'])){
                 $qb->getRootAliases();
                 $qb->andWhere('a.id IN (:ids)')
                     ->setParameter('ids', range($options['id_start'], $options['id_stop']));
